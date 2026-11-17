@@ -1,9 +1,9 @@
 # =====================================================================
-# SOVEREIGN .BIO HOLOGRAM — ONE-CLICK WINDOWS SETUP (OLLAMA + 3 MODELS)
+# SOVEREIGN .BIO HOLOGRAM - ONE-CLICK WINDOWS SETUP (OLLAMA + 3 MODELS)
 # =====================================================================
 $ErrorActionPreference = "Stop"
 
-Write-Host "`n=== Sovereign .bio Hologram — Local Engine & Model Setup ===" -ForegroundColor Cyan
+Write-Host "`n=== Sovereign .bio Hologram - Local Engine & Model Setup ===" -ForegroundColor Cyan
 
 # 1. Check for Ollama; install via winget if missing
 if (-not (Get-Command ollama -ErrorAction SilentlyContinue)) {
@@ -38,4 +38,5 @@ Write-Host "`n[4/4] Verifying installed models in local registry:" -ForegroundCo
 ollama list
 
 Write-Host "`nSetup complete! Run 'python bio_web.py' to launch your .bio console." -ForegroundColor Green
+
 
