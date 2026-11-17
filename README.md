@@ -2,6 +2,9 @@
 embed your personality and memories in an ai - a digital twin containing individuals data and memories...
 Easy does it - clone the repo and run the powershell script to install the 3 models - set up takes less than 1 minute-
 and off u go... u can run the script with the command below or just copy and paste into vs code...
+![Sovereign .bio Hologram Console](image.png)
+
+
 ## ⚠️ Data Sovereignty & Security Warning
 
 **Your `.bio` file is your personal property and your complete digital likeness. Treat it like your passport, private diary, and house keys combined.**
