@@ -42,6 +42,12 @@ Created by **Mojo (`Mulc1b3R`)** — establishing a human-readable, self-authore
 ---
 
 ## 🤖 Compatible Local Models (Hugging Face)
+### ⚡ One-Click Windows Setup (`setup_models.ps1`)
+Run the included PowerShell installer to install Ollama and pull/tag `local-gemma`, `local-qwen`, and `local-deepseek` automatically:
+```powershell
+powershell -ExecutionPolicy Bypass -File .\setup_models.ps1
+```
+
 
 This engine connects to any local Ollama-compatible endpoint (`http://localhost:11434/api/chat`) and runs smoothly even on low-power mini PCs (such as an Intel N95).
 
