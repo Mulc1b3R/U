@@ -50,8 +50,8 @@ Download open-weight models directly from their official Hugging Face repositori
 1. **Start your local inference server** (Ollama or compatible local runner listening on `http://localhost:11434`).
 2. **Clone this repository:**
    ```bash
-   git clone https://github.com
-   cd sovereign-bio-hologram
+   https://github.com/Mulc1b3R/U.git
+   cd name of folder
    ```
 3. **Launch the Sovereign `.bio` Console:**
    ```bash
