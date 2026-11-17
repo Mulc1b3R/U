@@ -7,6 +7,9 @@ embed your personality and memories in an ai - a digital twin containing individ
 A zero-dependency, offline-first digital twin and personal legacy runtime powered by plain-English `.bio` archives and local open-weight language models.
 
 Created by **Mojo (`Mulc1b3R`)** — establishing a human-readable, self-authored file standard where individuals own their voice, philosophy, and lived memories outright with zero cloud scraping, zero corporate lock-in, and zero subscriptions.
+### 🔐 256-Bit Genesis Block Lineage (`[GENESIS_ID]`)
+* **Genesis Archive `#01` (`0000...0001`):** The 64-character hexadecimal ID consisting of **63 zeros followed by `1`** (`0000000000000000000000000000000000000000000000000000000000000001`) marks the original reference archive created by the author.
+* **Automatic Unique Hex IDs for Every New `.bio` File:** Whenever you click **`+ Create New .bio File`** (or save a new archive), `bio_hex.js` and `bio_web.py` automatically generate and stamp a unique **64-character (256-bit) cryptographic hex ID** into your file's `[GENESIS_ID]` header—giving every individual archive its own permanent fingerprint.
 
 ---
 
