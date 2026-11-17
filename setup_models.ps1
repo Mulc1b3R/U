@@ -33,4 +33,9 @@ foreach ($m in $models) {
     ollama cp $m.source $m.alias
 }
 
-Write-Host "`n[4/4] Setup complete! Run 'python bio_web.py' to launch your .bio console." -ForegroundColor Green
+# 4. Verify installed models with ollama list
+Write-Host "`n[4/4] Verifying installed models in local registry:" -ForegroundColor Cyan
+ollama list
+
+Write-Host "`nSetup complete! Run 'python bio_web.py' to launch your .bio console." -ForegroundColor Green
+
