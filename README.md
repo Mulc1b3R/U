@@ -1,5 +1,12 @@
 # U
 embed your personality and memories in an ai - a digital twin containing individuals data and memories...
+## ⚠️ Data Sovereignty & Security Warning
+
+**Your `.bio` file is your personal property and your complete digital likeness. Treat it like your passport, private diary, and house keys combined.**
+
+* **Keep Your `.bio` File Strictly Offline:** Never upload your personal `.bio` file to public GitHub repositories, cloud storage, or third-party websites.
+* **Beware of Harvesting & Impersonation:** Because `.bio` files are written in open, human-readable plain English, anyone who obtains your file can read your private memories or load your persona into an AI model without your permission.
+* **Local Execution Only:** This engine is engineered to run **100% offline** on your own local hardware (`127.0.0.1`). Only share a `.bio` file directly with trusted family members or heirs on encrypted/offline media when you intentionally choose to pass your archive on.
 
 
 # 🧬 Sovereign `.bio` Hologram Engine (v1.0)
