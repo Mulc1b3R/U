@@ -48,7 +48,7 @@ This engine connects to any local Ollama-compatible endpoint (`http://localhost:
 Download open-weight models directly from their official Hugging Face repositories:
 
 * **Gemma (Google):** [https://huggingface.co](https://huggingface.co)
-* **Qwen (Alibaba Cloud):** [https://huggingface.co](https://huggingface.co)
+* **Qwen (Alibaba Cloud):** [https://huggingface.co](https://huggingface.co/Qwen/Qwen3.8-27B)
 * **DeepSeek:** [https://huggingface.co](https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF)
 
 *(Update the model names in `bio_app.js` to match the local model tags configured in your Ollama / local inference runner.)*
