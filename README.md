@@ -86,6 +86,36 @@ First-person memories, places, family, and formative moments.
 
 ---
 
+## 🧠 Model Setup (Ollama / Hugging Face `.gguf`)
+
+`bio_web.py` connects to any local Ollama-compatible server listening on `http://localhost:11434/api/chat`. **Do not place large model weights inside this repository folder**—Ollama manages model storage in its own local registry.
+
+### Option A: Quick Install via Ollama CLI
+Install [Ollama](https://ollama.com), pull your preferred open-weight models, and tag them to match the dropdown in `bio_app.js` (`local-gemma`, `local-qwen`, `local-deepseek`):
+
+```bash
+ollama pull gemma4:e4b
+ollama cp gemma4:e4b local-gemma
+
+ollama pull qwen3:8b
+ollama cp qwen3:8b local-qwen
+
+ollama pull deepseek-r1:8b
+ollama cp deepseek-r1:8b local-deepseek
+```
+
+### Option B: Import a `.gguf` File Downloaded From Hugging Face
+1. Download a quantized `.gguf` model from Hugging Face (e.g. `model.gguf`).
+2. Create a one-line file named `Modelfile` in the same folder:
+   ```text
+   FROM ./model.gguf
+   ```
+3. Register it under the matching dropdown tag:
+   ```bash
+   ollama create local-gemma -f Modelfile
+   ```
+
+
 ## 📜 License
 
 Released under the **Apache License 2.0** — free to inspect, fork, self-host, and preserve forever.
